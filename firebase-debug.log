@@ -1,0 +1,56 @@
+[debug] [2023-09-07T09:39:29.523Z] ----------------------------------------------------------------------
+[debug] [2023-09-07T09:39:29.526Z] Command:       C:\Users\uzaaa\.nvm\versions\node\v16.19.1\bin\node.exe C:\Users\uzaaa\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2023-09-07T09:39:29.526Z] CLI Version:   12.5.2
+[debug] [2023-09-07T09:39:29.526Z] Platform:      win32
+[debug] [2023-09-07T09:39:29.526Z] Node Version:  v16.19.1
+[debug] [2023-09-07T09:39:29.531Z] Time:          Thu Sep 07 2023 05:39:29 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-09-07T09:39:29.532Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-07T09:39:29.545Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-09-07T09:39:30.354Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-09-07T09:39:30.355Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=435840739&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-09-07T09:40:41.010Z] >>> [apiv2][query] POST https://accounts.google.com/o/oauth2/token [none]
+[debug] [2023-09-07T09:40:41.010Z] >>> [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[debug] [2023-09-07T09:40:41.503Z] <<< [apiv2][status] POST https://accounts.google.com/o/oauth2/token 200
+[debug] [2023-09-07T09:40:41.504Z] <<< [apiv2][body] POST https://accounts.google.com/o/oauth2/token [omitted]
+[info] 
+[info] +  Success! Logged in as khanallauddin113@gmail.com 
+[debug] [2023-09-07T09:40:46.970Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\uzaaa\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-09-07T09:41:13.540Z] ----------------------------------------------------------------------
+[debug] [2023-09-07T09:41:13.542Z] Command:       C:\Users\uzaaa\.nvm\versions\node\v16.19.1\bin\node.exe C:\Users\uzaaa\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-07T09:41:13.543Z] CLI Version:   12.5.2
+[debug] [2023-09-07T09:41:13.543Z] Platform:      win32
+[debug] [2023-09-07T09:41:13.543Z] Node Version:  v16.19.1
+[debug] [2023-09-07T09:41:13.544Z] Time:          Thu Sep 07 2023 05:41:13 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-09-07T09:41:13.544Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-07T09:41:13.553Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-07T09:41:13.554Z] > authorizing via signed-in user (khanallauddin113@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Effects\expensetracker
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
